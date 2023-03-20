@@ -78,6 +78,10 @@ set /a dva=2*%dv%
 set /a jedna=1*%j%
 set /a soucet=%pettisic%+%dvatisice%+%tisic%+%petset%+%dveste%+%sto%+%padesat%+%dvacet%+%deset%+%pet%+%dva%+%jedna%
 cls
-@echo Mas %soucet% penez.
+@echo Mas %soucet% korun.
+cd \
+%SYSTEMDRIVE%
+cd %userprofile%\Desktop
+@echo Mas %soucet% korun. > "Pocet korun.txt"
 pause > nul
 exit
