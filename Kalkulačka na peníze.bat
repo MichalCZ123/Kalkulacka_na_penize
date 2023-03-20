@@ -58,7 +58,7 @@ goto 1
 
 :1
 cls
-set /p j="Kolik mas 1-ek? "
+set /p j="Kolik mas 1-cek? "
 goto secist
 
 :secist
